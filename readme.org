@@ -1,0 +1,39 @@
+#+options: ':nil *:t -:t ::t <:t H:3 \n:nil ^:{} arch:headline
+#+options: author:t broken-links:mark c:nil creator:nil
+#+options: d:(not "LOGBOOK") date:t e:t email:nil expand-links:t f:t
+#+options: inline:t num:t p:nil pri:nil prop:nil stat:t tags:t
+#+options: tasks:t tex:t timestamp:t title:t toc:t todo:t |:t
+#+title: SMILE Lab Typst Weekly Report
+#+date: <2024-01-05 Fri>
+#+author: Nasy
+#+email: nasyxx@gmail.com
+#+language: en
+#+select_tags: export
+#+exclude_tags: noexport
+#+creator: Emacs 30.0.50 (Org mode 9.7-pre)
+#+cite_export:
+
++ Typst :: https://typst.app/
++ Maybe the modern version of TeX
+
+* How to use?
+
+See the =example.typ= file.
+
+#+begin_src typst
+#import "smwr.typ": smwr
+
+#show: body => smwr("Nasy", datetime(year: 2024, month: 1, day: 5), body)
+
+// abstract
+This week's main tasks include:
+
+- #lorem(10)
+- #lorem(15)
+- #lorem(5)
+- Total time: 40 hours
+
+= #lorem(10)
+
+#lorem(100)
+#+end_src

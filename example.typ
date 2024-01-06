@@ -5,8 +5,6 @@
 
 #show: body => smwr("Nasy", datetime(year: 2024, month: 1, day: 5), body)
 
-
-
 // abstract
 This week's main tasks include:
 
