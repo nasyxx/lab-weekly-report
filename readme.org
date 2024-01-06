@@ -16,6 +16,8 @@
 + Typst :: https://typst.app/
 + Maybe the modern version of TeX
 
+[[./ss.png]]
+
 * How to use?
 
 See the =example.typ= file.
